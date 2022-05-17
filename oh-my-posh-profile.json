@@ -26,7 +26,8 @@
               "folder_icon": "\uf6d7",
               "folder_separator_icon": "<transparent> \ue0bd </>",
               "home_icon": "\uf7db",
-              "style": "agnoster_short"
+              "style": "agnoster_short",
+              "max_depth": 3
             },
             "style": "diamond",
             "template": " {{ .Path }} ",
