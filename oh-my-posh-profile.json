@@ -21,7 +21,6 @@
           {
             "background": "#01579B",
             "foreground": "#ffffff",
-            "leading_diamond": "<transparent,#01579B>\ue0b0</>",
             "properties": {
               "folder_icon": "\uf6d7",
               "folder_separator_icon": "<transparent> \ue0bd </>",
@@ -55,8 +54,9 @@
           {
             "background": "#29315A",
             "foreground": "#43CCEA",
-            "powerline_symbol": "\ue0b0",
-            "style": "powerline",
+            "style": "diamond",
+            "leading_diamond": "<transparent,#29315A>\ue0b0</>",
+            "trailing_diamond": "\ue0b0",
             "template": " \ufd03 Sub: {{ .Name }} ",
             "type": "az"
           },
